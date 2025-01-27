@@ -1,10 +1,16 @@
 Package: STATS230
-Title: What the Package Does (One Line, Title Case)
-Version: 0.0.0.9000
-Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
+Title: Functions for Statistical Computing Methods
+Version: 0.1.0
+Authors@R:
+  c(person(given = "Volodymyr",
+           family = "Minin",
+           role = c("aut", "cre"),
+           email = "vminin@uci.edu"),
+    person(given = "Jessalyn",
+           family = "Sebastian",
+           role = role = c("aut", "cre"),
+           email = "jessalys@uci.edu"))
+Description: This package contains a variety of functions that implement statistical computing algorithms, along with associated vignettes demonstrating their use. Each vignette is associated with one homework assignment from UCI's STATS 230.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
